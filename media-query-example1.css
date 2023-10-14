@@ -24,14 +24,20 @@ figure {
          }
     .cats{
         display:grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr;
         padding:10px;
         }
 }
 
-@media only screen and (min-width:1325px) {
+@media only screen and (min-width:1020px){
     body{
-       
-         }
-  
+     background-color: blue;  
+     margin:25px 10%;
+     max-width:1130px;
+    }
+    .cats{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding:10px;
+        }
 }
